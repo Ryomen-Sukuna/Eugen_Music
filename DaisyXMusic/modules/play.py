@@ -435,7 +435,7 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "I joined this group for playing music in VC"
+                        message.chat.id, "Eugen joined this group for playing music in VC"
                     )
                     await lel.edit(
                         "<b>Helper userbot joined your chat</b>",
@@ -454,7 +454,7 @@ async def play(_, message: Message):
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> {user.first_name} Userbot not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually</i>"
+            f"<i> {user.first_name}Prinz Eugen not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually</i>"
         )
         return
     message.from_user.id
@@ -673,7 +673,7 @@ async def deezer(client: Client, message_: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message_.chat.id, "I joined this group for playing music in VC"
+                        message_.chat.id, "Eugen joined this group for playing music in VC"
                     )
                     await lel.edit(
                         "<b>Helper userbot joined your chat</b>",
@@ -801,7 +801,7 @@ async def jiosaavn(client: Client, message_: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message_.chat.id, "I joined this group for playing music in VC"
+                        message_.chat.id, "Eugen joined this group for playing music in VC"
                     )
                     await lel.edit(
                         "<b>Helper userbot joined your chat</b>",
@@ -820,7 +820,7 @@ async def jiosaavn(client: Client, message_: Message):
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            "<i> helper Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
+            "<i> Prinz Eugen not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
         )
         return
     requested_by = message_.from_user.first_name
