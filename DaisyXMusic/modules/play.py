@@ -438,7 +438,7 @@ async def play(_, message: Message):
                         message.chat.id, "I joined this group for playing music in VC"
                     )
                     await lel.edit(
-                        "<b>helper userbot joined your chat</b>",
+                        "<b>Helper userbot joined your chat</b>",
                     )
 
                 except UserAlreadyParticipant:
@@ -676,7 +676,7 @@ async def deezer(client: Client, message_: Message):
                         message_.chat.id, "I joined this group for playing music in VC"
                     )
                     await lel.edit(
-                        "<b>helper userbot joined your chat</b>",
+                        "<b>Helper userbot joined your chat</b>",
                     )
 
                 except UserAlreadyParticipant:
@@ -804,7 +804,7 @@ async def jiosaavn(client: Client, message_: Message):
                         message_.chat.id, "I joined this group for playing music in VC"
                     )
                     await lel.edit(
-                        "<b>helper userbot joined your chat</b>",
+                        "<b>Helper userbot joined your chat</b>",
                     )
 
                 except UserAlreadyParticipant:
